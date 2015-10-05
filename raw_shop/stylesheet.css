@@ -1,0 +1,305 @@
+
+body
+{
+   background: none;
+   margin: 0;
+   text-align: center;
+   padding: 0;
+   font-size: 10px;
+   font-family: 'Rock Salt', cursive;
+   
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;;
+}
+
+.container {
+	background: url('images/wood.jpg');
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 30px;;
+}
+
+.clear:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.nav-bar {
+	background: white;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	position: fixed;
+	z-index: 99999;
+}
+
+.nav-inner {
+	width: 80%;
+	margin: auto;
+	height: 100%;
+}
+
+.nav-title {
+	float: left;
+	height: 100%;
+	margin-left: 5px
+}
+
+.nav-title h1 {
+	margin: 0;
+	padding: 4px 0 0px 0px;
+	font-size: 140%;
+}
+
+.nav-right {
+	float: right;
+	height: 100%;
+	margin-right: 0px;
+}
+
+.nav-right ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 0 8px 0 8px;
+	font-size: 100%;
+	margin-top: 0;
+	margin-left: 0;
+	border-right: 1px solid black;
+}
+
+.nav-right ul li:hover {
+	text-decoration: underline;
+}
+
+.nav-right ul li:last-child {
+border-right: none;
+
+}
+
+@media screen and (max-width: 550px) {
+.nav-right ul li  {
+	visibility: hidden;
+}
+
+
+
+}
+
+.content-outer {
+	background: none;
+	padding-top: 60px;
+}
+
+.content-inner {
+	display: block;
+	width: 80%;
+	height: auto;
+	margin: auto;
+	background: black;
+	color: white;
+	margin-bottom: 30px;
+
+}
+
+.footer {
+	width: 100%;
+	color: black;
+	height: 100px;
+	background-color: white;
+	padding-top:40px;
+}
+
+/*Responsive grid full */
+
+.square {
+    float:left;
+    position: relative;
+    width: 32.5%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:0.41%;
+	
+    background-color:#1E1E1E;
+    overflow:hidden;
+}
+
+.content {
+    position: absolute;
+    height:100%; /* = 100% - 2*5% padding */
+    width:100%; /* = 100% - 2*5% padding */
+    padding: 0%;
+    
+}
+.table{
+    display:table;
+    width:100%;
+    height:100%;
+	color: black;
+
+	
+	
+}
+.table-cell{
+    display:table-cell;
+	position: absolute;
+	bottom: 3%;
+	width: auto;
+    vertical-align:center;
+	font-size: 100%;
+	height: auto;
+	padding: 1% 5%;
+	color: black;
+	background: rgba(200,200,200, 0.7);
+}
+
+.table span {
+	top: 3%;
+	right: 0;
+	position: absolute;
+	width: auto;
+	text-align: right;
+	padding-right: 4%;
+	padding-left: 4%;
+}
+
+.table span:hover {
+	background: rgba(200,200,200, 0.7);
+}
+
+.square:hover {
+		-webkit-filter: brightness(0.7);
+	    
+}
+
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
+}
+
+.img1{
+    background-image: url('images/2.jpg');
+}
+.img2{
+    background-image: url('images/2.jpg');
+}
+.img3{
+    background-image: url('images/3.jpg');
+}
+
+/*
+.square:hover {
+	filter: brightness(50%);
+	-webkit-filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	-o-filter: brightness(50%);
+	-ms-filter: brightness(50%);
+	
+}
+*/
+
+/* No longer using this code to hover show 
+.hover-show {
+    visibility: hidden;
+	color: black;
+	position: relative;
+	width: 92%;
+	padding-top:1%;
+	margin: 0 auto;
+	text-align: center;
+	height: 49%;
+	
+}
+
+
+.hover-show2 {
+	background: rgba(200,200,200, 0.7);
+}
+    
+	
+.square:hover .hover-show .hover-show2 {
+    visibility: visible;
+}
+
+*/
+
+/* responsive grid 2 col lower resolutions*/
+
+@media screen and (max-width: 760px) {
+.square {
+    float:left;
+    position: relative;
+    width: 49%;
+    padding-bottom : 47%; /* = width for a 1:1 aspect ratio */
+    margin:0.5%;
+    background-color:#1E1E1E;
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    height:100%; /* = 100% - 2*5% padding */
+    width:100%; /* = 100% - 2*5% padding */
+    padding: 0%;
+    
+}
+.table{
+    display:table;
+    width:100%;
+    height:47%;
+	padding-bottom: 3%;
+	
+	
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:bottom;
+	font-size: 80%;
+	color: black;
+}
+
+/*  For responsive images */
+
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
+}
+
+
+.table span {
+	font-size: 80%;
+}
+/* No longer using 
+.hover-show {
+    visibility: hidden;
+	color: black;
+	position: relative;
+	width: 92%;
+	padding-top:3%;
+	margin: 0 auto;
+	text-align: center;
+	height: 50%;
+	font-size: 80%;
+}
+*/
+}
+
+/* end of 2 col responsive grid area */

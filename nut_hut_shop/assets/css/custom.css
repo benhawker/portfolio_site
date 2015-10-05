@@ -1,0 +1,310 @@
+.navbar-brand {
+	font-family: 'Rock Salt', cursive;
+}
+
+.content a h6 {
+	color:grey;
+	font-weight: 300;
+}
+
+.description {
+	padding-top:10px;		
+}
+
+
+.add-to-cart {
+background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  color: #444444;
+  padding: 5px 5px;
+  height: 40px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important; 
+}
+
+
+  .section-title-panel {
+	  margin-top: 0;
+  }
+
+/*
+@media (max-width: 960px) {
+  .add-to-cart {
+    padding: 0 5px 0 5px;
+	float: none;
+  }
+ } 
+ 
+ */
+
+#recommended-title {
+	text-align: center;
+}
+
+.nav icons li {
+	float:left;
+	text-align: left;
+	padding: 0;
+}
+
+.nav-icons.nav-stacked > li > a {
+	padding-left: 0;
+	padding-top: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.nav-icons.nav-stacked > li > a:last-child {
+	padding-bottom: 10px;
+	margin-b
+	
+}
+
+.nav-icons.nav-stacked {
+	position: absolute;
+	top: 20%;
+}
+
+
+.panel-title > a {
+	display: inline-block;
+}
+
+.panel-title > .caret {
+margin-left: 200px;
+}
+
+.subscribe-line.subscribe-line-transparent {
+	border-radius: 10px;
+}
+
+
+@media (max-width: 960px) {
+  .subscribe-line .form-control {
+font-size: 120%;
+  }
+ } 
+ 
+
+.separator {
+		height: 30px;
+		border-bottom: 1px solid grey;
+}		
+
+#description-area {
+	margin-top: 20px;
+}
+
+.price-from {
+	font-weight: 300;
+	color: grey;
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 70%;
+	line-height: 0px;
+}
+
+.qty {
+display: inline;
+	background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  color: #444444;
+  padding: 5px 5px;
+  height: 40px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.more-info {
+		margin-bottom: 10px;
+		background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  color: #444444;
+  padding: 5px 5px;
+  height: 40px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.first-hr {
+	margin-top: 0px;
+}
+
+.low-height {
+	max-height: 150px;
+	width: auto;
+}
+
+.info-section-header {
+	margin-top:40px ;
+}
+
+.height-max-300 {
+	max-height:300px;
+	
+}
+
+.padding25 {
+	padding: 25px;
+}
+
+.left-pad-25 {
+	padding-left:25px;
+}
+
+.no-left-pad {
+	padding-left: 0;
+}
+.description {
+	padding-left: 0;;
+}
+
+.product-price {
+	text-align: right;
+	color: grey;
+}
+
+.product-details {
+	margin-top: 0;
+}
+
+.product-info {
+	margin-bottom: 30px;
+}
+
+#product-add-cart {
+	margin-left: 10px;
+}
+
+
+.product-img {
+	border-bottom: 1px solid grey;
+}
+
+@media only screen and (max-width : 768px) {
+.product-img {
+	border-bottom: none;
+}
+}
+
+.product-thumb:hover {
+	 -webkit-filter: grayscale(100%);
+}
+
+
+.recommended  {
+	text-align: center;
+	font-size: 130%;
+	padding-bottom: 10px;
+}
+
+.recommended h4 {
+color: #2ca8ff;
+}
+
+.content .title {
+	text-align: 
+	font-size: 130%;
+	line-height: 1;
+}
+
+.content {
+	height: auto;
+}
+
+body > div.wrapper > div.section.section-gray > div > div.row > div > div > div.content > h6 {
+	font-size: 120%;
+}
+
+.recommended-images img:hover{
+	 -webkit-filter: grayscale(100%);
+}
+
+.recommended-images {
+	padding-left: 0;
+}
+
+#recommended-item {
+	height: auto;
+}
+
+
+.filter-products {
+float: right;
+margin-top: 30px;
+border-width: 1px;
+background-color: transparent;
+font-weight: 400;
+opacity: 0.8;
+filter: alpha(opacity=80);
+color: #888888;
+border-radius: 10px;
+padding-bottom:10px;
+  
+}
+
+.dropdown {
+	z-index:99999999999999;
+
+}
+
+#filter-btn {
+	  border: 1px solid rgba(0, 0, 0, .15);
+}
+
+#filter-btn:focus, #filter-btn:hover  {
+	  border: 1px solid #2ca8ff;
+	  color: #2ca8ff;
+}
+
+.menu-image {
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+}
+
+.price {
+	margin-top:10px;
+	margin-bottom: 0px;
+}
+
+#menu-icon{
+	color: #2ca8ff;
+	float: right;
+	padding: 10px 0;
+}
+
+
+#\35 0px > a img{
+	height: 50px;
+	width: 100%;
+	padding: 0;
+	border-radius: 10px;
+}
+
+
+#\35 0px
+{
+	padding: 0;
+}
+
+#\35 0px > a > span {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	background: rgba(255,255,255, 0.8);
+	color: black;
+	width: 100%;
+	padding: 1% 2%;
+	font-weight: 300;
+	letter-spacing: 10px;
+	text-align: center;
+	text-transform: none;
+}
+
+
